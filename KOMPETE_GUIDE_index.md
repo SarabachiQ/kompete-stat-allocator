@@ -31,3 +31,11 @@
 
 - [2025-06-24_19-42版](KOMPETE_GUIDE_2025-06-24_19-42.md)
 
+2025-06-25 00:07  
+[KOMPETE_GUIDE_2025-06-25_00_07.md](https://github.com/SarabachiQ/kompete-stat-allocator/blob/main/KOMPETE_GUIDE_2025-06-25_00_07.md)  
+開発構造整理＆整合性重視へ方針転換
+
+2025-06-25 00:11  
+[KOMPETE_GUIDE_2025-06-25_00_11.md](https://github.com/SarabachiQ/kompete-stat-allocator/blob/main/KOMPETE_GUIDE_2025-06-25_00_11.md)  
+開発構造整理＆整合性重視へ方針転換
+
