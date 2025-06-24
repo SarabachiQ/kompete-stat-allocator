@@ -1,15 +1,17 @@
-#!/data/data/com.termux/files/usr/bin/bash
 
-# 日本時間を取得
+# 2. 下記のスクリプトを丸ごとコピペ（貼り付け）する
+#!/data/data/com.termux/files/usr/bin/bash#!/data/data/com.termux/files/usr/bin/bash
+
+# 日本時間を取得 日本時間を取得JST_TIME=$(TZ=Asia/Tokyo date "+%Y-%m-%d %H:%M")
 JST_TIME=$(TZ=Asia/Tokyo date "+%Y-%m-%d %H:%M")
-
-# ファイル名（日時入り、コロンと空白を置換）
+# ファイル名（日時入り、コロンと空白を置換） 
+# 保存先ファイル名（分まで含めたバージョン）FILENAME="KOMPETE_GUIDE_${JST_TIME//[: 
+# ]/_}.md"
 FILENAME="KOMPETE_GUIDE_${JST_TIME//[: ]/_}.md"
-
-# Markdown本文を生成
-cat > $FILENAME << EOM
-# 🧠 KOMPETE Stat Allocator 攻略ブック（${JST_TIME}作成）
-
+# Markdown本文を生成 Markdownファイルを生成（中途半端な ``` は --- 
+# に置換し、ファイル全体は ``` で囲む）cat > $FILENAME << EOM 🧠 KOMPETE Stat 
+# Allocator 攻略ブック（${JST_TIME}作成）
+cat > $FILENAME << 'EOF'
 この攻略ブックは、KOMPETE用「Stat Allocator」開発の記録です。作業効率を高め、過去の認識を正しく共有する目的で記録しています。
 
 ---
