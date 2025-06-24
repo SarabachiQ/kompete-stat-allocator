@@ -26,3 +26,13 @@ If you are developing a production application, we recommend using TypeScript wi
 # kompete-stat-allocator
 
 （以下略...既存のREADME内容の下に続けて貼ってください）
+
+---
+📂 関連リンク
+
+- [KOMPETE_TERMS_v0.1.md](KOMPETE_TERMS_v0.1.md)
+- [KOMPETE_GUIDE_index.md](KOMPETE_GUIDE_index.md)
+- [KOMPETE_GUIDE_2025-06-24_18_11.md](KOMPETE_GUIDE_2025-06-24_18_11.md)
+- [KOMPETE_GUIDE.md](KOMPETE_GUIDE.md)
+- [README.md](README.md)
+

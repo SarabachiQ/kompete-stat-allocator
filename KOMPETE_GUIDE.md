@@ -50,3 +50,13 @@
 # 🧠 KOMPETE Stat Allocator 攻略ブック v0.1
 
 （以下略...）
+
+---
+📂 関連リンク
+
+- [KOMPETE_TERMS_v0.1.md](KOMPETE_TERMS_v0.1.md)
+- [KOMPETE_GUIDE_index.md](KOMPETE_GUIDE_index.md)
+- [KOMPETE_GUIDE_2025-06-24_18_11.md](KOMPETE_GUIDE_2025-06-24_18_11.md)
+- [KOMPETE_GUIDE.md](KOMPETE_GUIDE.md)
+- [README.md](README.md)
+

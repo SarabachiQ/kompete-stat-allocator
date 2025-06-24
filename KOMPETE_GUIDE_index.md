@@ -31,3 +31,13 @@
 （以下略...）
 
 - [2025-06-24_19-42版](KOMPETE_GUIDE_2025-06-24_19-42.md)
+
+---
+📂 関連リンク
+
+- [KOMPETE_TERMS_v0.1.md](KOMPETE_TERMS_v0.1.md)
+- [KOMPETE_GUIDE_index.md](KOMPETE_GUIDE_index.md)
+- [KOMPETE_GUIDE_2025-06-24_18_11.md](KOMPETE_GUIDE_2025-06-24_18_11.md)
+- [KOMPETE_GUIDE.md](KOMPETE_GUIDE.md)
+- [README.md](README.md)
+
