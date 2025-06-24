@@ -51,3 +51,17 @@ component	UIの部品単位。Reactでは .jsx ファイルで関数として定
 
 📅 最終更新: 2025-06-24
 
+
+---
+📂 ナビゲーション：
+
+- [📘 GUIDE（最新版）](./KOMPETE_GUIDE.md)
+- [📚 GUIDE（履歴: 2025-06-24 18:11）](./KOMPETE_GUIDE_2025-06-24_18_11.md)
+- [🗂 GUIDE Index](./KOMPETE_GUIDE_index.md)
+- [🧠 用語・単語集](./KOMPETE_TERMS_v0.1.md)
+- [🏠 README](./README.md)
+---
+
+# 📚 KOMPETE 用語・単語集（v0.1）
+
+（以下略...）

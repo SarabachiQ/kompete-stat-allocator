@@ -94,3 +94,16 @@ nano index.html
 - セッション切れ後もこの形式を維持し、お互いの作業効率を上げるために重要な運用ルールです。
 - このメモは2025-06-24 16:39 (JST) に追記されました。
 
+---
+📂 ナビゲーション：
+
+- [📘 GUIDE（最新版）](./KOMPETE_GUIDE.md)
+- [📚 GUIDE（履歴: 2025-06-24 18:11）](./KOMPETE_GUIDE_2025-06-24_18_11.md)
+- [🗂 GUIDE Index](./KOMPETE_GUIDE_index.md)
+- [🧠 用語・単語集](./KOMPETE_TERMS_v0.1.md)
+- [🏠 README](./README.md)
+---
+
+# 🧠 KOMPETE Stat Allocator 攻略ブック v0.1
+
+（以下略...）

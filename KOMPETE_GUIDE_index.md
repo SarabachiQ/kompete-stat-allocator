@@ -39,3 +39,18 @@
 ---
 
 ## 📅 最終更新: 2025-06-24 17:30 (JST)
+
+
+---
+📂 ナビゲーション：
+
+- [📘 GUIDE（最新版）](./KOMPETE_GUIDE.md)
+- [📚 GUIDE（履歴: 2025-06-24 18:11）](./KOMPETE_GUIDE_2025-06-24_18_11.md)
+- [🗂 GUIDE Index](./KOMPETE_GUIDE_index.md)
+- [🧠 用語・単語集](./KOMPETE_TERMS_v0.1.md)
+- [🏠 README](./README.md)
+---
+
+# 📑 KOMPETE GUIDE バージョン管理 index
+
+（以下略...）
