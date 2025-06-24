@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
