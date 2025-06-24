@@ -1,23 +1,18 @@
+---
+🔗 他のドキュメント:
+- [KOMPETE_TERMS_v0.1.md](KOMPETE_TERMS_v0.1.md)
+- [KOMPETE_GUIDE_index.md](KOMPETE_GUIDE_index.md)
+- [KOMPETE_GUIDE_2025-06-24_18_11.md](KOMPETE_GUIDE_2025-06-24_18_11.md)
+- [KOMPETE_GUIDE.md](KOMPETE_GUIDE.md)
+- [README.md](README.md)
+- [最新版ガイド](KOMPETE_GUIDE_2025-06-24_19-45.md)
+---
+
 # 🗂️ KOMPETE バージョン管理 インデックス
 
 このファイルは、KOMPETEプロジェクトに関する各種ドキュメントのバージョン管理用インデックスです。  
 過去・現在の情報にすぐアクセスできるよう、日付別ファイルへのリンクをまとめています。
 
----
-
-## 📄 ドキュメント一覧
-
-- [KOMPETE_GUIDE.md (基本ガイド v0.1)](./KOMPETE_GUIDE.md)  
-  ※ 6/24 作成、基本仕様と作業メモ
-
-- [KOMPETE_TERMS_v0.1.md (用語集)](./KOMPETE_TERMS_v0.1.md)  
-  ※ 共通認識の用語集。  
-  https://github.com/SarabachiQ/kompete-stat-allocator/blob/main/KOMPETE_TERMS_v0.1.md
-
-- [KOMPETE_GUIDE_2025-06-24_17_14.md (テスト版)](./KOMPETE_GUIDE_2025-06-24_17_14.md)  
-  ※ 2025年6月24日 17:14（JST）に作成したバージョン例
-
----
 
 ## 🕒 バージョン履歴
 
@@ -26,31 +21,13 @@
 | 2025-06-24 16:39     | [KOMPETE_GUIDE_2025-06-24_16_39.md](./KOMPETE_GUIDE_2025-06-24_16_39.md) | 初期バージョン                  |
 | 2025-06-24 17:14     | [KOMPETE_GUIDE_2025-06-24_17_14.md](./KOMPETE_GUIDE_2025-06-24_17_14.md) | テストファイル                 |
 
----
-
-## 📝 メモ・共通認識
-
-- Markdownは**一発コピペ形式**で作成する  
-- ファイルは**新規作成で保存**し、上書きしない  
-- ファイル名には必ず**日本時間（分まで）を含める**  
-- 内容は**実際に起きたこと・進行中の状況・次の目標を記載**  
-- どのセッションでもこのindexファイルを読み直して**文脈を復元する**
-
----
 
 ## 📅 最終更新: 2025-06-24 17:30 (JST)
 
 
----
-📂 ナビゲーション：
-
-- [📘 GUIDE（最新版）](./KOMPETE_GUIDE.md)
-- [📚 GUIDE（履歴: 2025-06-24 18:11）](./KOMPETE_GUIDE_2025-06-24_18_11.md)
-- [🗂 GUIDE Index](./KOMPETE_GUIDE_index.md)
-- [🧠 用語・単語集](./KOMPETE_TERMS_v0.1.md)
-- [🏠 README](./README.md)
----
 
 # 📑 KOMPETE GUIDE バージョン管理 index
 
 （以下略...）
+
+- [2025-06-24_19-42版](KOMPETE_GUIDE_2025-06-24_19-42.md)
