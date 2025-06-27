@@ -7,7 +7,7 @@ export default function OverviewPage() {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch("/docs/overview_edit.md")
+    fetch("/docs/01_overview.md")
       .then((res) => res.text())
       .then((text) => setContent(text));
   }, []);

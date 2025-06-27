@@ -9,17 +9,13 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import "./index.css";
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import OverviewPage from "./OverviewPage";
-import LogPage from "./LogPage";  // 先頭でインポートを忘れずに
+import LogPage from "./LogPage";
+
+import "./index.css";
 
 ChartJS.register(
   RadialLinearScale,
@@ -199,24 +195,9 @@ function MainPage() {
           <Radar data={data} options={options} />
         </div>
       </div>
-
-      <footer className="mt-8 bg-gray-800 text-white p-4">
-        <div className="flex flex-wrap justify-between items-center text-sm max-w-screen-md mx-auto">
-          <div className="flex flex-col items-start gap-1">
-            <Link to="/overview" className="hover:underline">overview</Link>
-            <a href="/docs/old-data/backup.md" className="hover:underline">backup</a>
-          </div>
-          <div className="text-center w-full my-2">
-            <a href="/index.html" className="text-lg font-bold underline">index</a>
-          </div>
-          <div className="flex flex-col items-end gap-1">
-            <a href="/docs/guide.md" className="hover:underline">guide</a>
-            <a href="/docs/notes.md" className="hover:underline">notes</a>
-          </div>
-        </div>
-      </footer>
     </>
-  );
+
+);
 }
 
 export default function App() {
@@ -225,7 +206,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/overview" element={<OverviewPage />} />
-        <Route path="/log" element={<LogPage />} />  {/* ここに追加 */}
+        <Route path="/log" element={<LogPage />} />
       </Routes>
     </Router>
   );

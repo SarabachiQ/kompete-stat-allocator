@@ -1,3 +1,11 @@
+/* =====================
+   🏁 index.css - 全体初期スタイルとTailwind起点
+===================== */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   background-color: black;

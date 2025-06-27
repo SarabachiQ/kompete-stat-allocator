@@ -31,3 +31,6 @@ pubric/
 *.bak
 *.tmp
 .env
+
+# 自動バックアップフォルダを無視（数字が変わってもOK）
+kompete-stat-dev_*/

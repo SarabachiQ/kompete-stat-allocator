@@ -15,6 +15,56 @@
 
 > この分類により、情報の整理・検索・運用が効率化される。
 
+
+```bash
+~/kompete-stat-dev/
+├── local/                     ← 新設フォルダ（編集・開発用ファイルを集約）
+│   ├── docs/                  ← 編集用Markdownなどのドキュメント
+│   │   ├── 01_overview_edit.md
+│   │   ├── 02_log_2025-06_edit.md
+│   │   ├── 03_chatlog_edit.md
+│   │   ├── 04_commands_edit.md
+│   │   ├── 05_terms_edit.md
+│   │   ├── 06_README_edit.md
+│   │   └── その他ドキュメントや旧データ
+│   ├── src/                   ← ソースコード
+│   │   ├── App.jsx
+│   │   ├── OverviewPage.jsx
+│   │   ├── assets/
+│   │   └── components/
+│   ├── old-data/              ← 古いデータ保管など
+│   ├── backup/                ← バックアップ置き場
+│   └── その他開発関連ファイル・フォルダ
+│
+├── public/                    ← 公開用ファイル（自動同期先）
+│   ├── 01_overview.md
+│   ├── 02_log_2025-06.md
+│   ├── 03_chatlog.md
+│   ├── 04_commands.md
+│   ├── 05_terms.md
+│   ├── 06_README.md
+│   ├── App.jsx                ← （ビルドで生成 or コピー管理）
+│   ├── vite.svg
+│   └── その他公開用静的ファイル
+│
+├── sync_docs.sh               ← docsの編集ファイルをpublicにコピー（編集後スクリプト）
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── eslint.config.js
+├── その他ルート設定ファイル
+```
+
+
+
+## 今日の作業概要
+
+- プロジェクトのドキュメント6ファイル分類の再確認  
+- ドキュメントファイル名に番号を付けて整理するルールを確立  
+- ファイル移動とリネームの運用ルールの共有
+
+
+
 ---
 
 ## ✅ 自動バックアップ実行例（再確認）
@@ -69,6 +119,7 @@ npx tsc --init
 
 ```markdown
 ### 🔧 [ここにタイトル]
+```
 
 ```bash
 # コマンドを書く

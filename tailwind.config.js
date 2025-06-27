@@ -3,12 +3,13 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./local/**/*.{js,ts,jsx,tsx,md,mdx}", // 👈 これを追加！
   ],
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],     // Tailwindのデフォルトフォントに上書き
-        poppins: ['Poppins', 'sans-serif'],  // 個別に指定も可能
+        sans: ['Poppins', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
   },

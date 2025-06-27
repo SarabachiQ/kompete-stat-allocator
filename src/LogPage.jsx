@@ -1,3 +1,4 @@
+// src/LogPage.jsx
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
@@ -7,7 +8,7 @@ export default function LogPage() {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch("/docs/log_2025-06_edit.md")
+    fetch("/docs/02_log_2025-06.md")
       .then((res) => res.text())
       .then((text) => setContent(text));
   }, []);
