@@ -1,0 +1,16 @@
+name: Update Google Sheet
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-sheet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send POST to GAS
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{"url":"https://example.com", "message": "Updated from GitHub"}' \
+          "https://script.google.com/macros/s/AKfycbzCNZebEZ3R251CuX29YqztOcN3XZu-LnbuyVxaqqHdiYK-8UQZVdMkzHLqWorO-FP1/exec"
